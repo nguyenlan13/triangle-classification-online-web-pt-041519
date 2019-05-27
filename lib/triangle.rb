@@ -13,6 +13,7 @@ class Triangle
     if @side1 == @side2 && @side1 == @side3
     end
       true
+      
     else
       false
     end
