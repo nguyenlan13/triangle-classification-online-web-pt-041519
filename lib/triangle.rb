@@ -41,15 +41,7 @@ class Triangle
   end
   
   def valid?
-     if valid? == false
-     raise TriangleError
-   elsif equilateral?
-     :equilateral
-   elsif isosceles?
-     :isosceles
-   elsif scalene?
-     :scalene
-   end
+  
  end
     
   end
