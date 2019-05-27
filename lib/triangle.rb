@@ -73,9 +73,9 @@ class Triangle
         :isosceles
       elsif scalene?
         :scalene
-      end
     end
   end
+  
 
     
     class TriangleError < StandardError
