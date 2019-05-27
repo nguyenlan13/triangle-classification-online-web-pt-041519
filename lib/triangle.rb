@@ -1,5 +1,6 @@
 class Triangle
   
+  attr_accessor :side1, :side2, :side3
   
   
   def initialize(side1, side2, side3)
@@ -9,6 +10,8 @@ class Triangle
   end
   
   def kind(type)
+    
+    
     return type
     
     
