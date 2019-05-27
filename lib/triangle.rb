@@ -42,7 +42,9 @@ class Triangle
     if @side1 != @side2 && @side2 != @side3
     end
       true
-      
+      begin
+        raise TriangleError
+      rescue TriangleError => error
     else
       false
     end
