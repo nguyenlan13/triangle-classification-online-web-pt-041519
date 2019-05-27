@@ -28,6 +28,7 @@ class Triangle
       true
     else
       false
+    end
   end
   
 
