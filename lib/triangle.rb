@@ -28,8 +28,8 @@ class Triangle
       true
     else
       false
-    end
   end
+  
 
   def scalene?
     if @side1 != @side2 && @side2 != @side3
