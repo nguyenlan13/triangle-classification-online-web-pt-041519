@@ -26,6 +26,7 @@ class Triangle
        # @side2 == @side3
     end
       true
+      begin
     else
       false
     end
