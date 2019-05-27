@@ -9,24 +9,24 @@ class Triangle
     @side3 = side3
   end
   
-  def equilateral
+  def equilateral?
     if @side1 == @side2 && @side1 == @side3
     end
   end
   
-  def isosceles
+  def isosceles?
     if @side1 == @side2
       elsif
         @side1 == @side3
       elsif
         @side2 == @side3
       end
-      return true
     end
   end
 
-  def scalene
+  def scalene?
     if @side1 != @side2 && @side2 != @side3
+    end
   end
   
   def kind(type)
