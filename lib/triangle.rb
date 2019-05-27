@@ -12,7 +12,7 @@ class Triangle
     return type
     
     
-    
+    class TriangleError < StandardError
   
   
   
