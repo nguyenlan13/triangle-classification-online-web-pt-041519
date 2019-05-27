@@ -4,9 +4,9 @@ class Triangle
   
   
   def initialize(side1, side2, side3)
-    @side1 = side1.to_int
-    @side2 = side2.to_int
-    @side3 = side3.to_int
+    @side1 = side1.to_f
+    @side2 = side2.to_f
+    @side3 = side3.to_f
   end
   
   def equilateral?
