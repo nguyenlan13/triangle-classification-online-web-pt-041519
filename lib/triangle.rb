@@ -9,14 +9,22 @@ class Triangle
     @side3 = side3
   end
   
-  def
+  def equilateral
+    
+  end
   
-  
+  def isosceles
+    
+  end
+
+  def scalene
+    
+  end
   
   def kind(type)
     
     
-    return type
+  end
     
     
     class TriangleError < StandardError
