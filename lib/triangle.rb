@@ -64,7 +64,7 @@ class Triangle
   end
   
   
-  def kind(type)
+  def kind
     if valid? == false
       raise TriangleError
       elsif equilateral?
@@ -80,3 +80,4 @@ class Triangle
     
     class TriangleError < StandardError
     end
+end
