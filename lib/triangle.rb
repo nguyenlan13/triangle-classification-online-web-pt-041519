@@ -12,20 +12,31 @@ class Triangle
   def equilateral?
     if @side1 == @side2 && @side1 == @side3
     end
+      true
+    else
+      false
+    end
   end
   
   def isosceles?
-    if @side1 == @side2
-      elsif
-        @side1 == @side3
-      elsif
-        @side2 == @side3
-      end
+    if @side1 == @side2 || @side1 == @side3 || @side2 == @side3
+      #elsif
+        #@side1 == @side3
+      #elsif
+       # @side2 == @side3
+    end
+      true
+    else
+      false
     end
   end
 
   def scalene?
     if @side1 != @side2 && @side2 != @side3
+    end
+      true
+    else
+      false
     end
   end
   
