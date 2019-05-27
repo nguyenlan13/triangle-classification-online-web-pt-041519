@@ -65,15 +65,16 @@ class Triangle
   
   
   def kind(type)
-  if valid? == false
-     raise TriangleError
-   elsif equilateral?
-     :equilateral
-   elsif isosceles?
-     :isosceles
-   elsif scalene?
-     :scalene
-   end
+    if valid? == false
+      raise TriangleError
+      elsif equilateral?
+        :equilateral
+      elsif isosceles?
+        :isosceles
+      elsif scalene?
+        :scalene
+      end
+    end
   end
 
     
