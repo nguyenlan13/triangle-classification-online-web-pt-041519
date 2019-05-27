@@ -51,10 +51,20 @@ class Triangle
   end
   
   def valid?
-    if scalene? == true
-     
-
-    
+    valid = true
+   if @side1 + @side2 <= @side3
+     valid = false
+   elsif @side3 + @side1 <= @side2
+     valid = false
+   elsif @side3 + @side2 <= @side1
+     valid = false
+   elsif @side1 <= 0 && @side2 <= 0
+     valid = false
+   elsif @side3 <= 0
+     valid = false
+   end
+    return valid
+    end
   end
   
   def kind(type)
