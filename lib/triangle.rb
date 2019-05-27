@@ -30,7 +30,7 @@ class Triangle
   end
   
   def valid?
-    
+  end
   
   def kind(type)
     
