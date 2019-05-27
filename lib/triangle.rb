@@ -61,8 +61,8 @@ class Triangle
      valid = false
    end
     return valid
-    end
   end
+  
   
   def kind(type)
   if valid? == false
@@ -78,8 +78,5 @@ class Triangle
 
     
     class TriangleError < StandardError
-      def error
-        "TriangleError"
-      end
     end
 end
