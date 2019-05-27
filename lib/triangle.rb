@@ -11,7 +11,6 @@ class Triangle
   
   def equilateral?
     if @side1 == @side2 && @side1 == @side3
-    end
       true
       begin
         raise TriangleError
@@ -27,7 +26,6 @@ class Triangle
         #@side1 == @side3
       #elsif
        # @side2 == @side3
-    end
       true
       begin
         raise TriangleError
@@ -40,7 +38,6 @@ class Triangle
 
   def scalene?
     if @side1 != @side2 && @side2 != @side3
-    end
       true
       begin
         raise TriangleError
