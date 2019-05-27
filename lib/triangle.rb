@@ -50,12 +50,12 @@ class Triangle
     end
   end
   
-  def valid?
-    if scalene? == true
+  #def valid?
+  #  if scalene? == true
      
 
     
-  end
+  #end
   
   def kind(type)
   if valid? == false
