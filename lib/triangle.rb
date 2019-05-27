@@ -29,6 +29,9 @@ class Triangle
     end
   end
   
+  def valid?
+    
+  
   def kind(type)
     
     
